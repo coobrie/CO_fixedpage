@@ -71,6 +71,7 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
 }
 header, article{
   margin:auto;
@@ -78,7 +79,10 @@ header, article{
 .small {
   margin-top: 1em;
   font-weight: 900;
+  font-family: "Lato" sans-serif;
+  font-size: 20px;
   text-transform: uppercase;
+
 }
 /*-- Article Styles--*/
 article {
@@ -89,14 +93,34 @@ article {
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
+  color: #808080;
+  font-size: 18px;
+  font-family: "Arial" sans-serif;
 }
+
+.dropcap{
+  font-size:70px;
+  float: left;
+  margin-top: -15px;
+}
+
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: no-wrap;
 }
+
+.button {
+  margin: auto;
+}
+
 a.button {
   border: 1px solid #888;
   padding: .4em 1em .4em 1em;
