@@ -2,7 +2,7 @@
 body {
   color: #444;
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium', serif;
 }
 p {
   margin-bottom: .67em;
@@ -15,7 +15,34 @@ footer {
   padding: 1em 0 .3em 0;
   color: #D0D0D0;
 }
+
 /*-- Main Menu Styles--*/
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: no-wrap;
+}
+.left {
+  flex-basis: 20%;
+  flex-grow: 0;
+  order: 0;
+}
+.center {
+  flex-basis: 50%;
+  flex-grow: 0;
+  order: 0;
+}
+.right {
+  flex-basis: 20%;
+  flex-grow: 0;
+  order: 0;
+}
+
+.col{
+  text-align: center;
+}
+
 nav ul {
   list-style: none;
   padding: 1em;
@@ -45,8 +72,13 @@ header h1 {
   margin: 0 auto;
   padding: 0 auto;
 }
+header, article{
+  margin:auto;
+}
 .small {
   margin-top: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 /*-- Article Styles--*/
 article {
