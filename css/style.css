@@ -1,6 +1,7 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  color: #444;
+  background-color: #E6E6FA;
+  color:#444
   font-size: 16px;
   font-family: 'Gentium', serif;
 }
@@ -8,7 +9,7 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #B58EB5;
 }
 footer {
   text-align: center;
@@ -96,7 +97,7 @@ article figure {
   float: right;
 }
 article figcaption {
-  color: #808080;
+  color: #4A274F;
   font-size: 18px;
   font-family: "Arial" sans-serif;
 }
@@ -119,6 +120,7 @@ article figcaption {
 
 .button {
   margin: auto;
+  color: F0A07C;
 }
 
 a.button {
